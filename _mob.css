@@ -1,0 +1,85 @@
+@media (min-width: 375px) and (max-width: 767px) {
+    
+.center {
+    padding-left: calc(50% - 260px);
+    padding-right: calc(50% - 260px);
+}
+
+.mobile-menu {
+    width: 100%;
+    right: -100%;
+}
+
+.mobile-menu__link-site {
+    display: flex;
+}
+
+.header .header__checkbox:checked ~ .mobile-menu {
+    right: 0;
+}
+
+.header__link-site {
+    display: none;
+}
+
+.promo__img {
+    display: none;
+}
+
+.promo__content {
+    min-height: 363px;
+    padding-left: 0;
+    width: 100%;
+    justify-content: center;
+}
+
+.promo__title {
+    font-size: 38px;
+    line-height: 46px;
+}
+
+.promo__heading {
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.sale {
+    gap: 32px;
+}
+
+.sale__item img {
+    width: 100%;
+}
+
+.sale__item .sale_big {
+    min-height: 111px;
+    background-image: url(img/sibig.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.product-box .product-box__content {
+    grid-template-columns: repeat(1, 1fr);
+}
+    
+.product__add{
+    top: 30%;
+    left: 33%;
+}
+    
+.footer {
+    flex-direction: column-reverse;
+    gap: 40px;
+    padding-top: 42px;
+    padding-bottom: 9px;
+} 
+}   
+
+@media (max-width: 525px) {
+
+.center {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+}
