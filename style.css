@@ -1474,6 +1474,7 @@ summary::-webkit-details-marker {
   height: 50px;
   -webkit-transition: .3s;
   transition: .3s;
+  cursor: pointer;
 }
 
 .checkout_btn:hover {
@@ -1640,6 +1641,9 @@ summary::-webkit-details-marker {
 }
 
 .text_form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
