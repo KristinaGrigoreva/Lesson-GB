@@ -180,6 +180,25 @@ summary::-webkit-details-marker {
   transform: translate(80%);
 }
 
+.cart_coin {
+  position: relative;
+}
+
+.cart_coin {
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  color: white;
+  background: #f16d7f;
+  border-radius: 50%;
+  position: absolute;
+  text-align: center;
+  right: -8px;
+  top: -19px;
+  font-size: 12px;
+  line-height: 19px;
+}
+
 .promo {
   display: flex;
   background: #f1e4e6;
